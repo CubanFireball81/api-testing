@@ -1,0 +1,27 @@
+.Footer {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: fit-content;
+    bottom: 0;
+    background-color: grey;
+    position: fixed;
+
+    .Footer-items {
+        width: 100%;
+        margin: 2rem 1rem;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        font-size: larger;
+    }
+
+    li {
+        color: gold;
+
+        &:hover {
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
